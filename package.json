@@ -1,0 +1,23 @@
+{
+  "name": "bsuircourseproject",
+  "version": "1.0.0",
+  "description": "Application for showing statistic and ranks of films",
+  "main": "./bin/run.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lsdenis/bsuircourseproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lsdenis/bsuircourseproject/issues"
+  },
+  "homepage": "https://github.com/Lsdenis/bsuircourseproject#readme",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
