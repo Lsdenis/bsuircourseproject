@@ -1,0 +1,40 @@
+extends layout
+
+block content
+		div.row
+			div.col-md-6.col-md-offset-3
+				p RESTful application for storing films and reviews
+				p it's written using 
+					span.label.label-success nodejs
+					|   platform with 
+					span.label.label-primary express
+					|   web framework
+				p db is created with 
+					span.label.label-success mongodb
+					|   manager				
+		div.row
+			div.col-md-6.col-md-offset-3
+				p list of used npm modules for developing applicaion
+				dl.dl-horizontal
+						dt body-parser
+						dd
+						dt cookie-parser
+						dd
+						dt express
+						dd
+						dt jade
+						dd
+						dt mongodb
+						dd
+						dt mongoskin
+						dd
+						dt underscore
+						dd
+		div.row
+			div.col-md-6.col-md-offset-3
+				p this applicaion contains two controllers, which allow you to work with database:
+				ul
+					li 
+						a(href='/documentation/films', type='button') films
+					li
+						a(href='/documentation/reviews', type='button') reviews

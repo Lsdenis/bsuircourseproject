@@ -1,0 +1,32 @@
+extends layout
+
+block content
+	div.row
+		div.col-md-6.col-md-offset-3
+			p this api controller contains next actions:
+			ul
+				li
+					a(href='/') get
+				li
+					a(href='/') post 
+				li
+					a(href='/') put
+					
+	div.row
+		div.col-md-6.col-md-offset-3
+			p structure of films table:
+			dl.dl-horizontal
+				dt id
+				dd unique identifier
+				dt film_id
+				dd id of the referenced film
+				dt title
+				dd title of the review
+				dt text
+				dd text of review
+				dt author
+				dd author of review
+				dt mark
+				dd mark of the film
+				dt date
+				dd date of the review

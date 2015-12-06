@@ -1,0 +1,42 @@
+extends layout
+
+block content
+	div.row
+		div.col-md-6.col-md-offset-3
+			p this api controller contains next actions:
+			ul
+				li
+					a(href='/api/films') get
+				li
+					a(href='/') post 
+				li
+					a(href='/') put
+					
+	div.row
+		div.col-md-6.col-md-offset-3
+			p structure of films table:
+			dl.dl-horizontal
+				dt id
+				dd unique identifier
+				dt name
+				dd name of the film
+				dt genre
+				dd genre of the film
+				dt year
+				dd year of the film
+				dt duration
+				dd duration of the film
+				dt country(ies)
+				dd country(ies) where film was shot
+				dt director
+				dd director of the film
+				dt composer
+				dd music composer of the film
+				dt first roles
+				dd main actors in film
+				dt imdb
+				dd rank on imdb
+				dt kinopoisk 
+				dd rank on kinopoisk
+				dt trailer
+				dd link to a trailer
