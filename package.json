@@ -30,6 +30,5 @@
   "devDependencies": {},
   "bundleDependencies": [],
 
-  "private": true,
-  "main": "server.js"
+  "private": true
 }
