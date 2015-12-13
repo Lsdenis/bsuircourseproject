@@ -2,10 +2,19 @@
   "name": "bsuircourseproject",
   "version": "1.0.0",
   "description": "Application for showing statistic and ranks of films",
-  "main": "bin/run.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./bin/run.js"
+  },
+  "keywords": [
+    "OpenShift",
+    "Node.js",
+    "application",
+    "openshift"
+  ],
+  "author": {
+    "name": "OpenShift",
+    "email": "ramr@example.org",
+    "url": "http://www.openshift.com/"
   },
   "homepage": "http://www.openshift.com/",
   "repository": {
@@ -28,5 +37,6 @@
   },
   "devDependencies": {},
   "bundleDependencies": [],
-  "private": true
+  "private": true,
+  "main": "./bin/run.js"
 }
